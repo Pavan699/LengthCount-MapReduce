@@ -1,10 +1,15 @@
 # LengthCount-MapReduce
 Basic Length Count of words in file by using map reduce
 Steps :-
+
 $ start-all.sh
+
 $ hdfs dfs -mkdir /LengthCount
+
 $ hdfs dfs -ls /
+
 $ hdfs dfs -copyFromLocal /home/pavan-linux/WordFile /LengthCount
+
 $ hdfs dfs -cat /LengthCount/WordFile/HadoopInfo
 
 $ hadoop jar 
